@@ -7,19 +7,22 @@ Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN�
 
 #### 软件架构
 软件架构说明
-
+1、核心: Vue 3
+2、音频处理: Web Audio API
+3、UI: Tailwind CSS
+4、状态管理: Vue Composition API
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1、使用npm或yarn安装组件: npm install vue3-music-component 或 yarn add vue3-music-component
+2、在你的Vue 3项目中引入并使用组件
+3、确保你的项目中已经设置了音频资源的路径或URL
 
 #### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1、在你的组件中引入音乐组件: import MusicComponent from 'vue3-music-component'
+2、在模板中添加该组件并传入所需的props: <MusicComponent :src="yourAudioSource" />
+3、使用提供的事件和插槽自定义播放器的行为和外观
+4、享受高质量的音频播放体验！
 
 #### 参与贡献
 
